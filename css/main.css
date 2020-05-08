@@ -1,0 +1,385 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-weight: 400;
+    font-family: m-regular;
+    font-size: 17px;
+}
+
+h1, h2, h3, h4, h5 {
+    margin: 0px;
+    font-family: p-semibold;
+}
+
+.blue-color {
+    color: #0288D1 !important;
+}
+
+@font-face {
+    font-family: m-regular;
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+
+@font-face {
+    font-family: p-bold;
+    src: url(../fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: p-semibold;
+    src: url(../fonts/Poppins-SemiBold.ttf);
+}
+
+/*Header*/
+header {
+    background: #242628;
+}
+
+.navbar {
+    background: #242628 !important;
+}
+
+
+.btn-info {
+    color: #fff;
+    background-color: #0288D1 !important;
+    border-color: #0288D1 !important;
+}
+
+    .btn-info:hover {
+        opacity: 0.9;
+    }
+
+.btn-large {
+    margin-top: 15px;
+}
+
+/*Home Banner*/
+.banner-main {
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+    .banner-main .overlay {
+        padding: 160px 0px;
+        background: rgba(0,0,0,0.17);
+    }
+
+    .banner-main h1 {
+        margin: 0px;
+        color: white;
+        text-shadow: 1px 1px 1px black;
+    }
+
+    .banner-main p {
+        margin: 0px;
+        color: white;
+        font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: 35px;
+        text-shadow: 1px 1px 1px black;
+    }
+
+    .banner-main .btn {
+        font-size: 19px;
+        padding-left: 18px;
+        padding-right: 18px;
+        padding-top: 9px;
+        padding-bottom: 9px;
+    }
+
+        .banner-main .btn:hover {
+            opacity: 0.9;
+        }
+
+/**/
+.home-about h2 span {
+    font-size: 44px;
+}
+
+.page-titles {
+    font-size: 40px;
+}
+
+/*p-banner*/
+.p-banner {
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+    .p-banner .overlay {
+        padding: 100px 0px;
+        background: rgba(0,0,0,0.47);
+    }
+
+    .p-banner h1 {
+        margin: 0px;
+        color: white;
+    }
+
+    .p-banner p {
+        color: white;
+        width: 70%;
+        margin: 0 auto;
+        display: block;
+    }
+
+/*Services*/
+.services {
+    background: rgba(238, 238, 238, 0.701);
+    padding: 60px 0px;
+}
+
+.s-box {
+    position: relative;
+}
+
+    .s-box i {
+        position: absolute;
+        font-size: 40px;
+        top: -3px;
+        left: 0px;
+    }
+
+
+    .s-box h3 {
+        margin-left: 60px;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .s-box p {
+        margin-left: 60px;
+    }
+
+
+/**/
+.more-details {
+    margin-top: 50px;
+    margin-bottom: 90px;
+}
+
+    .more-details .bold {
+        font-size: 19px;
+        font-weight: 600;
+        text-decoration: underline;
+    }
+
+    .more-details i {
+        font-size: 10px;
+        position: relative;
+        top: -2px;
+        padding-right: 5px;
+    }
+
+
+/*Contact*/
+.contact-us-form {
+    box-shadow: 0px 0px 13px 1px rgba(0, 0, 0, 0.16);
+    padding: 30px 30px;
+    background: beige;
+}
+
+.contact-me a {
+    color: #212529;
+}
+
+    .contact-me a:hover {
+        text-decoration: none;
+    }
+
+.contact-me h4 {
+    font-size: 19px !important;
+    margin-bottom: 9px;
+    margin-top: 30px;
+}
+
+
+
+/*my-skills*/
+
+.my-skills {
+    margin-top: 70px;
+    background: rgba(238, 238, 238, 0.701);
+    padding: 60px 0px;
+}
+
+    .my-skills .card {
+        box-shadow: 0 23px 49px 0 rgba(0, 0, 0, 0.1);
+    }
+
+/*About*/
+
+.about-us {
+    background: rgba(238, 238, 238, 0.701);
+    padding: 70px 0px;
+}
+
+
+/*Footer*/
+footer {
+    background: #333;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+
+    footer p {
+        color: #d5d3d3;
+    }
+
+.footer-text {
+    color: #b8b6b6;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+    .footer-text a {
+        color: #b8b6b6;
+    }
+
+        .footer-text a:hover {
+            color: #b8b6b6;
+            text-decoration: none;
+        }
+
+.social-list-container {
+    margin-top: 20px;
+}
+
+    .social-list-container a {
+        color: #c0c0c0;
+    }
+
+
+        .social-list-container a:hover {
+            color: white;
+        }
+
+    .social-list-container i {
+        background: white;
+        width: 35px;
+        height: 35px;
+        border-radius: 25px;
+        border: 1px solid white;
+        font-size: 18px;
+        text-align: center;
+        line-height: 32px;
+        color: #222;
+    }
+
+        .social-list-container i:hover {
+            background: #0288D1;
+            border: 1px solid #0288D1;
+            color: white;
+        }
+
+
+@media(min-width:768px) {
+    .navbar-nav a {
+        margin-left: 15px !important;
+        margin-right: 15px !important;
+    }
+
+    .inner-content {
+        background: rgba(0, 0, 0, 0.5019607843137255);
+        width: 600px;
+        padding: 30px 20px;
+    }
+
+    .banner-main {
+        background-attachment: fixed !important;
+    }
+
+    .p-banner {
+        background-attachment: fixed !important;
+    }
+
+    .navbar-nav .active-menu {
+        background: white;
+    }
+
+        .navbar-nav .active-menu a {
+            background: white;
+            color: #111 !important;
+            font-weight: 600 !important;
+        }
+
+    .navbar {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+    .banner-main h1 {
+        font-size: 53px;
+    }
+
+    .banner-main p {
+        display: block;
+        margin-bottom: 41px !important;
+        margin-top: 21px !important;
+    }
+}
+
+@media(max-width:767px) {
+    .p-banner h1 {
+        text-align: center;
+        font-size: 28px;
+    }
+
+    h1 {
+        font-size: 2.2rem;
+    }
+
+    .banner-main .overlay {
+        background: rgba(0,0,0,0.77);
+    }
+
+    .f-head {
+        margin-top: 25px;
+    }
+
+    .home-about h2 span {
+        font-size: 26px;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+    }
+
+    .p-banner .overlay {
+        padding: 60px 0px;
+    }
+
+    .banner-main .overlay {
+        padding: 80px 0px;
+    }
+
+    footer h3 {
+        margin-top: 35px;
+    }
+}
+
+
+@media(min-width:992px) {
+    .home-about-container {
+        max-width: 950px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .profile-image {
+        margin-right: 25px;
+    }
+
+    .contact-me {
+        margin-left: 30px;
+    }
+
+    .c-title {
+        margin-left: 30px;
+    }
+}
